@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominando funções</title>
+</head>
+<body>
+    <script>
+      function teste() {
+          alert('ola mundo!!!!');
+      }  
+      function teste2(mensagem){
+          alert(mensagem);
+      }
+      teste2("ola meus queridos");
+
+function obterNumeropremiadoDaMegaDaVirada() {
+    return " 10, 21, 29 ,31, 36, 45 "
+}
+ var resultado = obterNumeropremiadoDaMegaDaVirada();
+ teste2(resultado);
+
+function retornarParOuImpar(numero) {
+    numero = parseInt(numero);
+
+    if(numero % 2 == 0){
+return "par"
+    } else{
+return "impar"
+    }
+}
+ var numero = prompt("digite um numero");
+
+ teste2(retornarParOuImpar(numero));
+ 
+    </script>
+</body>
+</html>

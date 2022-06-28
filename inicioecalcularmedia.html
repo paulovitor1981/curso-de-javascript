@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 aula de javascript</title>
+</head>
+<body>
+    <script>
+        //comentario no javascript.
+        /* 
+         e um comentário em barra
+        */
+      // var nome = prompt("digite seu nome");
+
+       //output = saida de dados
+      // alert("bem vindo ao sistema " + nome)
+
+      // document.write('<h1>bem vindo ao sistema' + nome +"</h1>" )
+
+        var nota1 = prompt("Digite sua primeira nota");
+        var nota2 = prompt("Digite sua segunda nota");
+        var nota3 = prompt("Digite sua terceira nota");
+        var nota4 = prompt("Digite sua quarta nota");
+
+        var soma = parseFloat(nota1) + 
+                   parseFloat(nota2) + 
+                   parseFloat(nota3) + 
+                   parseFloat(nota4);
+
+        var media = soma / 4;
+
+        document.write('a soma das suas notas é ' + soma + "<br>");
+        document.write("a media das suas notas é " + media+ "<br>" );
+
+        if(media < 50){
+            document.write("VOCE ESTA REPROVADO !!!!! " 
+            + "<br>");
+        }else if(media <= 59){
+            document.write("VOCE ESTA EM RECUPERAÇÃO!!!! " + "<br>")
+        }
+        else{
+            document.write("VOCE ESTA APROVADO !!!!! " + "<br>");
+        }
+
+    </script>
+</body>
+
+</html>

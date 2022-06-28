@@ -1,0 +1,43 @@
+body{
+    background-color: #343434;
+}
+
+.container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 300px;
+    text-align: center;
+}
+ 
+#temporizador{
+ font-size: 96px;
+ text-align: center;
+}
+
+.grupo-botoes {
+    padding: 40px;
+}
+button{
+    width: 140px;
+    border: 0px;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+button.btn-iniciar{
+    background-color: green;
+}
+button.btn-pausar{
+    background-color: brown;
+}
+button.btn-zerar{
+    background-color: orange;
+}
+button :hover{
+    cursor: pointer;
+}
